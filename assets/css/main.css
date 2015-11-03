@@ -1070,10 +1070,12 @@
 
 	html {
 		height: 100%;
+		background-image: url("http://www.cliparthut.com/clip-arts/804/fire-icon-804330.png");
+		background-color: transparent;
 	}
 
 	body {
-		background: #3b414d;
+		/* background: rgba(59, 65, 77, 0.56); */
 		height: 100%;
 		width: 100%;
 	}
@@ -1386,12 +1388,12 @@
 			}
 
 				#header nav a:hover {
-					color: #fff;
+					color: #f47b1f;
 				}
 
 		#header h1 {
 			display: inline-block;
-			color: #fff;
+			color: #F47B1F;
 		}
 
 			#header h1 span {
@@ -1404,7 +1406,7 @@
 		position: relative;
 		text-align: center;
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.2);
+		color: rgb(6, 0, 0);
 	}
 
 		#footer p {
@@ -1616,7 +1618,7 @@
 						top: 0;
 						height: 50%;
 						width: 100%;
-						background: url("../../images/banner.jpg") center center no-repeat;
+						background: url("../../images/cheapbugs_bannerB.png") center center no-repeat;
 						background-size: cover;
 					}
 

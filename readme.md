@@ -1,3 +1,6 @@
+#How to use this Repo:
+
+
 1. clone this onto a custom username repo to keep it easy - in order to host on github your username MUST match the firstpart of the repo.  
 
 2. name the cloned repo: cheapbugs.github.io or whatever your brand name shall be.

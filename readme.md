@@ -12,7 +12,7 @@ Taken from here {https://help.github.com/articles/adding-a-cname-file-to-your-re
 
 2. Create an AName Record or an Alias Record on your domain name registrar site.  Have the A Record resolve to one of these Ip Addresses:
 
-*192.30.252.153
-*192.30.252.154 
+* 192.30.252.153
+* 192.30.252.154 
 
 Give it a few hours and the site should be live!

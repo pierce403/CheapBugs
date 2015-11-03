@@ -48,6 +48,14 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.homelink {
+			position: absolute;
+		    font-size: 1.5em;
+		    color: #F47B1F;
+		    font-weight: 600;
+
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {

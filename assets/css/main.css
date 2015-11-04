@@ -49,11 +49,10 @@
 	}
 
 	.homelink {
-			position: absolute;
-		    font-size: 1.5em;
-		    color: #F47B1F;
-		    font-weight: 600;
-
+			/* position: absolute; */
+			font-size: 1.5em;
+			color: #F47B1F;
+			font-weight: 600;
 	}
 
 /* Box Model */
@@ -1090,7 +1089,7 @@
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		color: #777;
+		color: #080707;
 		font-weight: 400;
 	}
 
@@ -1389,7 +1388,7 @@
 		}
 
 			#header nav a {
-				color: #8b97a1;
+				/* color: #8b97a1; */
 				text-decoration: none;
 				outline: 0;
 				border: 0;

@@ -21,9 +21,9 @@
 				<nav>
 					<a href="#about" class="jumplink pad-after primary">About</a>
 					<a href="#appsec" class="jumplink primary">Appsec</a>
-					<a href="#home" class="jumplink primary homelink">CheapBugs</a>
+					<a href="#home" id="homelink" class="jumplink primary homelink">CheapBugs</a>
 					<a href="#websec" class="jumplink primary">Websec</a>
-					<a href="https://groups.google.com/a/cheapbugs.net/forum/#!forum/bugfeed" class="pad-before primary">Access</a>
+					<a href="https://groups.google.com/a/cheapbugs.net/forum/#!forum/bugfeed" target="_BLANK" class="pad-before primary">Access</a>
 				</nav>
 			</header>
 			<div class="row">
@@ -35,43 +35,6 @@
 						<div class="viewer">
 							<div class="reel">
 
-								<!-- **************************************************************************** -->
-								<!-- * Home                                                                     * -->
-								<!-- **************************************************************************** -->
-
-									<div class="slide" id="home">
-										<article class="page home">
-											<div class="banner"></div>
-											<div class="inner">
-
-												<!-- Inner content -->
-
-													<div class="intro">
-														<header class="major">
-															<h2>BugFeed Service</h2>
-														</header>
-														<p>This site is under development now.
-															Please wait to subscribe until subscriptions have been fully tested. <br><br>
-															$10 per month for unlimited
-															access to the bugfeed and archives</p>
-
-															
-														<a href="https://www.coinbase.com/checkouts/f9b4dc2f257e91a6455780fd15601a15" class="button ">Bitcoin</a>	
-
-
-														<form  style="display:inline" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-														<input type="hidden" name="cmd" value="_s-xclick">
-														<input type="hidden"   name="hosted_button_id" value="FZ6WQZAYQLE56">
-														<input type="submit"  class="button"  value="Paypal" >
-														</form>
-
-														
-													</div>
-
-
-											</div>
-										</article>
-									</div>
 								<!-- **************************************************************************** -->
 								<!-- * About                                                                    * -->
 								<!-- **************************************************************************** -->
@@ -138,6 +101,44 @@
 				
 
 								<!-- **************************************************************************** -->
+								<!-- * Home                                                                     * -->
+								<!-- **************************************************************************** -->
+
+									<div class="slide" id="home">
+										<article class="page home">
+											<div class="banner"></div>
+											<div class="inner">
+
+												<!-- Inner content -->
+
+													<div class="intro">
+														<header class="major">
+															<h2>BugFeed Service</h2>
+														</header>
+														<p>This site is under development now.
+															Please wait to subscribe until subscriptions have been fully tested. <br><br>
+															$10 per month for unlimited
+															access to the bugfeed and archives</p>
+
+															
+														<a href="https://www.coinbase.com/checkouts/f9b4dc2f257e91a6455780fd15601a15" class="button ">Bitcoin</a>	
+
+
+														<form  style="display:inline" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+														<input type="hidden" name="cmd" value="_s-xclick">
+														<input type="hidden"   name="hosted_button_id" value="FZ6WQZAYQLE56">
+														<input type="submit"  class="button"  value="Paypal" >
+														</form>
+
+														
+													</div>
+
+
+											</div>
+										</article>
+									</div>
+
+								<!-- **************************************************************************** -->
 								<!-- * websec                                                                     * -->
 								<!-- **************************************************************************** -->
 
@@ -196,6 +197,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
 
+			document.addEventListener("DOMContentLoaded", function(event) { 
+  				document.getElementById("homelink").click();
+});
+
+</script>
 	</body>
 </html>
